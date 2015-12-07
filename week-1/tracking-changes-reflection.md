@@ -61,7 +61,7 @@ Release 5: Reflect
 
 > 4.	You then directed to a "Open a pull request" page and make sure you are comparing your base (master) with your new pushed branch. Fill in the title and decription if neccssary.
 
->5.		Click on the "Create pull request" button to complete the pull request.
+> 5.		Click on the "Create pull request" button to complete the pull request.
 
 
 > In order to merge a pull request
