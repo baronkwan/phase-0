@@ -29,7 +29,7 @@ Release 5: Reflect
 
 ### Describe what open source means.
 
-> Open Source means the code and the source code of the software is able to be freely distributed. Open source software is the practice of sharing how a computer program was made and also allowing others to use, customize and build on the software as they see fit.
+> Open Source means the code and the source code of the software are able to be freely distributed. Open source software is the practice of sharing how a computer program was made and also allowing others to use, customize and build on the software as they see fit.
 
 
 ### What do you think about Open Source? Does it make you nervous or protective? Does it feel like utopia?
