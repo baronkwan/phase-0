@@ -63,6 +63,7 @@ Release 5: Reflect
 
 >5.		Click on the "Create pull request" button to complete the pull request.
 
+
 > In order to merge a pull request
 
 > 1.	Go to the "Conversation" tab of your pull request page. And click on the "Merge pull request" button.
