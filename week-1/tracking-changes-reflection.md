@@ -61,10 +61,10 @@ Release 5: Reflect
 
 > 4.	You then directed to a "Open a pull request" page and make sure you are comparing your base (master) with your new pushed branch. Fill in the title and decription if neccssary.
 
-> 5.		Click on the "Create pull request" button to complete the pull request.
+> 5.	Click on the "Create pull request" button to complete the pull request.
 
 
-> In order to merge a pull request
+> In order to merge a pull request, you should
 
 > 1.	Go to the "Conversation" tab of your pull request page. And click on the "Merge pull request" button.
 
@@ -76,14 +76,6 @@ Release 5: Reflect
 ### Why are pull requests preferred when working with teams?
 
 > Once a pull request is sent, interested parties can review the set of changes, discuss potential modifications, and even push follow-up commits if necessary. It is commonly used by teams and organizations to collaborating a project at the same time remotely.
-
-
-
-
-
-
-
-
 
 
 
