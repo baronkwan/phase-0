@@ -13,7 +13,7 @@ Release 5: Reflect
 
 ### What are the best practices for commit messages?
 
-> The best practices for commit messages is 
+> The best practices for commit messages are 
 
 > 1. Capitalize first letter
 
@@ -74,7 +74,7 @@ Release 5: Reflect
 
 ### Why are pull requests preferred when working with teams?
 
-> Once a pull request is sent, interested parties can review the set of changes, discuss potential modifications, and even push follow-up commits if necessary. It is commonly used by teams and organizations to collaborating a projects at the same time remotely.
+> Once a pull request is sent, interested parties can review the set of changes, discuss potential modifications, and even push follow-up commits if necessary. It is commonly used by teams and organizations to collaborating a project at the same time remotely.
 
 
 
