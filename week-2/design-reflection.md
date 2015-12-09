@@ -11,27 +11,27 @@ The 6 phases of Web Design that Selene M. Bowlby mentioned are
 
 Phase 1. Information Gathering
 
-    The first phase is acutally the most important one as it required solid understanding of the reason why creating the website. The designer should also consider four things: What is the purpose of the site? What are the expecting outcomes? Who are the target audiences? What content are the audiences be looking at on the site?
+The first phase is acutally the most important one as it required solid understanding of the reason why creating the website. The designer should also consider four things: What is the purpose of the site? What are the expecting outcomes? Who are the target audiences? What content are the audiences be looking at on the site?
 
 Phase 2. Planning
 
-    On phase 2, the designer now can use the information gathered from phase 1 to device a plan. To organize which information goes to which page.
+On phase 2, the designer now can use the information gathered from phase 1 to device a plan. To organize which information goes to which page.
 
 Phase 3. Design
 
-    After set up the structure of the site by employing site map. It is time to design how its look. The look will affect how the taget audiences feel about the site. A designer will normally create a prototype for discussion use.
+After set up the structure of the site by employing site map. It is time to design how its look. The look will affect how the taget audiences feel about the site. A designer will normally create a prototype for discussion use.
 
 Phase 4. Development
 
-    Once the outlook has been designed. It brings the project to an development stage. Web designer now will implement every individual selected elements and apply them on an actual, functional site.
+Once the outlook has been designed. It brings the project to an development stage. Web designer now will implement every individual selected elements and apply them on an actual, functional site.
 
 Phase 5. Testing and Delivery
 
-    When the site is done. The web designer will look for and test any technical issues which will prevent the site to go online.
+When the site is done. The web designer will look for and test any technical issues which will prevent the site to go online.
 
 Phase 6. Maintenance
 
-    Even the site is successfully online doesn't mean that its journey is over. the website is still in need of maintenance and content update.
+Even the site is successfully online doesn't mean that its journey is over. the website is still in need of maintenance and content update.
 
 
 ### What is your site's primary goal or purpose? What kind of content will your site feature?
