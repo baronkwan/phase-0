@@ -1,0 +1,103 @@
+/*General*/
+
+p {
+  color: #000080;
+}
+
+a {
+  color: #800080;
+}
+
+a:visited {
+  color: #FF0000;
+}
+
+body {
+  background-color: #FFFFFF;
+}
+
+/*Header*/
+
+header {
+	font-size: 17px;
+	text-align: center;
+	font-weight: bold;
+}
+
+header p {
+	margin: -1px 0 -1px 0;
+}
+
+.address {
+	font-size: 13px;
+}
+
+span {
+	font-size: 30px;
+}
+
+/*content*/
+
+.subtitle {
+	font-size: 10px;
+	margin: 2px 0 -2px 0;
+}
+
+.right-list {
+	margin-top: -10px;
+	margin-left: 40px;
+	float: right;
+	width: 50%;
+}
+
+.left-list {
+	margin-top: -10px;
+	margin-left: 40px;
+	float: left;
+	width: 50%;
+}
+
+ul li {
+	padding-bottom: 32px;
+}
+
+
+/*Horizontal line*/
+
+.horizontal-line {
+	background-color: gray;
+	height: 1px;
+	width: 100%;
+	margin: 20px 0 20px 0;
+	
+}
+
+/*Footer*/
+
+footer {
+	clear: both;
+}
+
+.geico-contact {
+	text-align: center;
+}
+
+.geico-contact p {
+	font-size: 11px;
+	margin: -3px 0 -3px 0;
+}
+
+.email p {
+	font-size: 13px;
+}
+
+.copyright {
+	font-size: 10px;
+
+}
+
+.copyright span {
+	font-weight: bold;
+	font-size: 10px;
+}
+
