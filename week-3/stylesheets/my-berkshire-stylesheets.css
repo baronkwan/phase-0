@@ -101,3 +101,34 @@ footer {
 	font-size: 10px;
 }
 
+/*
+
+What is important to know when linking an external file (like a stylesheet) to an HTML file?
+
+It is important to know the path of your html file located at. So that you can link your css file
+correctly from a different folder under the parent directory.
+
+
+What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
+
+For me, I first started to guess one number, say, 30px. If that seems too big for me I will reduce
+the px and vice versa. It was hard to get it exactly the same as the original site if you are mirroring but not
+looking at the actual source code. Almost impossible to get every px match with the actual page you mirroring.
+
+
+What CSS did you use to modify the element style (like size, color, etc.)
+Did you modify the HTML to include classes or ids? If so, which did you choose and why? If you didn't, how would you know which one to add to your HTML?
+
+I used font-size, font-weight, margin, padding, color .etc.
+I added classes for some elements because I would like to apply same CSS on those elements without repeating the code.
+
+
+When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
+
+After reviewing the actual berkshire hathaway code base, I think my code is even more cleaner because
+I have the html file and css file seperated. So the html file is purely semantic and is easier for reader
+to read through.
+
+*/
+
+
