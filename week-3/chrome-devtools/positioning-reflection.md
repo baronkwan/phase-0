@@ -40,20 +40,20 @@ I really appreciate this challenge. CSS positioning is a topic that need real pr
 
 # Screenshot for the Challenges
 
-![Colors](/imgs/colors.png "Colors")
+![Colors](imgs/colors.png "Colors")
 
-![Column](/imgs/column.png "Column")
+![Column](imgs/column.png "Column")
 
-![Row](/imgs/row.png "Row")
+![Row](imgs/row.png "Row")
 
-![Equidistant](/imgs/equidistant.png "Equidistant")
+![Equidistant](imgs/equidistant.png "Equidistant")
 
-![Footer](/imgs/footer.png "Footer")
+![Footer](imgs/footer.png "Footer")
 
-![Header](/imgs/header.png "Header")
+![Header](imgs/header.png "Header")
 
-![Sidebar](/imgs/sidebar.png "Sidebar")
+![Sidebar](imgs/sidebar.png "Sidebar")
 
-![Creative](/imgs/creative.png "Creative")
+![Creative](imgs/creative.png "Creative")
 
 
