@@ -41,6 +41,21 @@ end
 min_in_a_decade(2)    # 5256000
 ```
 
+## Release 5: Exercises
+
+### 4.2.1 Defining Variables
+
+https://github.com/baronkwan/phase-0/blob/master/week-4/defining-variables.rb
+
+### 4.2.2 Simple String Methods
+
+https://github.com/baronkwan/phase-0/blob/master/week-4/simple-string.rb
+
+### 4.2.3 Local Variables and Basic Arithmetical Operations
+
+https://github.com/baronkwan/phase-0/blob/master/week-4/basic-math.rb
+
+
 ## Release 7: Reflect
 
 ### How does Ruby handle addition, subtraction, multiplication, and division of numbers?
