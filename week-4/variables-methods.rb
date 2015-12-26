@@ -34,7 +34,7 @@ https://github.com/baronkwan/phase-0/blob/master/week-4/math/my_solution.rb
 
 How do you define a local variable?
 
-	To define a local variable you need to create a name which is begin with a lowercase letter or _. then use the "="/equal sign to assign the value you want to the name you just created.
+	To define a local variable you need to create a name which is begin with a lowercase letter or _. then use the "="/equal sign to assign the value you want to the name you just created. Add quotation to wrap the value unless the value is a number.
 
 How do you define a method?
 
