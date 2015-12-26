@@ -15,8 +15,6 @@ fav_num = gets.chomp.to_i + 1
 puts "A bigger and better number would be #{fav_num.to_s}"
 
 =begin
-	
-
 
 # my_solution.rb Ex. 4.3.1
 
