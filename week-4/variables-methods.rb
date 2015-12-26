@@ -20,7 +20,11 @@ puts "A bigger and better number would be #{fav_num.to_s}"
 
 # my_solution.rb Ex. 4.3.1
 
+https://github.com/baronkwan/phase-0/blob/master/week-4/define-method/my_solution.rb
+
 # defining_variable_spec.rb Ex 4.3.2
+
+https://github.com/baronkwan/phase-0/blob/master/week-4/define-method/defining_variable_spec.rb
 
 =end
 
