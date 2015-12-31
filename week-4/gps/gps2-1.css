@@ -30,6 +30,7 @@ article {
   /*display: inline-block;*/
   width: 49%;
   float: left;
+  overflow: hidden;
 }
 
 .column-2 {
@@ -38,6 +39,7 @@ article {
   background-color: White;
   width: 49.5%;
   float: right;
+  overflow: hidden;
   /*display: inline-block;*/
 }
 
