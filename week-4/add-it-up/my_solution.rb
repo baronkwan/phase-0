@@ -57,6 +57,6 @@ end
 # 6. sentence_maker refactored solution
 
 def sentence_maker(words)
-	words.join(" ").to_s.capitalize + "."
+	words.join(" ").capitalize + "."
 end
 
