@@ -31,7 +31,7 @@
 def total(numbers)
  sum_of_total = 0
  numbers.each do |x|
-   sum_of_total = x + sum_of_total
+   sum_of_total += x
  end
  sum_of_total
 end
