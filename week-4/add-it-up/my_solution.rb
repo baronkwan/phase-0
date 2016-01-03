@@ -15,26 +15,22 @@
 # Use .each method to iterate through array and sum the numbers
 
 # 1. total initial solution
+=begin
 
-#def total(numbers)
-#  sum_of_total = 0
-#  numbers.each do |x|
-#    sum_of_total = x + sum_of_total
-#  end
+def total(numbers)
+ sum_of_total = 0
+ numbers.each { |x| sum_of_total += x )
+ sum_of_total
+end
 
-#  return sum_of_total
-
-#end
+=end
 
 # 3. total refactored solution
 
 def total(numbers)
- sum_of_total = 0
- numbers.each do |x|
-   sum_of_total += x
- end
- sum_of_total
+	numbers.reduce(:+)
 end
+
 
 
 # 4. sentence_maker pseudocode
@@ -45,15 +41,8 @@ end
 
 
 # 5. sentence_maker initial solution
-#def sentence_maker(words)
-#  combined_strings = ""
-#  words.each do |x|
-#    combined_strings = combined_strings + " " + x.to_s
-#  end
-#  combined_strings.strip.capitalize + "."
-#end
 
-# 6. sentence_maker refactored solution
+=begin
 
 def sentence_maker(words)
  combined_strings = ""
@@ -62,3 +51,12 @@ def sentence_maker(words)
  end
  combined_strings.strip.capitalize + "."
 end
+
+=end
+
+# 6. sentence_maker refactored solution
+
+def sentence_maker(words)
+	words.join(" ").to_s.capitalize + "."
+end
+
