@@ -9,8 +9,8 @@
 # output: hash
 
 
-def make_list(x)
-  arr = x.split(" ")
+def make_list(items)
+  arr = items.split(" ")
   hash = Hash.new(0)
   arr.each { |item| hash[item] = 0 }
   hash
