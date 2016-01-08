@@ -2,38 +2,28 @@
 # input: string of items separated by spaces (example: "carrots apples cereal pizza")
 # steps:
 
-# 1. make an empty array and hash
-# 2. have the string from input, 
-# 3. seperate the string by spaces, 
-# 4. put the seperated items into an array, 
-# 5.iterrate on the array to prompt the user for quantities, 
-# 6. put it into the hash,
-# 7. print
+# 1. Store the string from input which seperated by spaces into an array
+# 2. Create a empty hash with zero as the default value
+# 3. Iterate on the array to fill each item into the empty hash
 
-  # set default quantity
-  # print the list to the console [can you use one of your other methods here?]
-# output: [what data type goes here, array or hash?]
+# output: hash
 
 
 def make_list(x)
-  a = []
-  a = x.split(" ")
-  a.each do |item| 
-    puts "What is the quantity for #{item}"
-    c = gets.chomp.to_i
-    LIST[item] = "#{c}"
-  end
-  return LIST
+  arr = x.split(" ")
+  hash = Hash.new(0)
+  arr.each { |item| hash[item] = 0 }
+  hash
 end  
 
 
 # Method to add an item to a list
-# input: item name and optional quantity
+# input: The list, New item name and its quantity (optional)
 # steps: New item name and its quantity
 # output: hash
 
-def add_item(x,y=0)
-  LIST[x] = y
+def add_item(list, item, quantity=0)
+  list[item] = quantity
 end
 
 # Method to remove an item from the list
@@ -41,12 +31,8 @@ end
 # steps: iterate through the hash list, then delete it if found item that match
 # output: hash
 
-def remove_item(x)
-  LIST.each do |key ,value| 
-    if key == x.to_s; LIST.delete(key) 
-    end
-  end
-  puts LIST
+def remove_item(list, item)
+  list.each { |key ,value| return list.delete(key) if key == item }
 end
 
   
@@ -55,30 +41,42 @@ end
 # steps: Iterate through the hash list and update the value
 # output: hash
 
-def update_quantity(x,y)
-  LIST.each do |key ,value| 
-    if key == x.to_s; LIST[key]=y 
-    end
-  end
+def update_quantity(list, item, quantity)
+  list.each { |key ,value| list[key]= quantity if key == item }
 end
 
 # Method to print a list and make it look pretty
-# input: nothing
-# steps: iterate each key/value pair and puts it
+# input: the grocery list we created at the begining
+# steps: iterate each key/value pair and puts it to the console
 # output: strings
 
-def print_list
-  LIST.each do |key, value|
-    puts "We have #{value} #{key}"
+def print_list(list)
+  list.each do |key, value|
+    puts "We have #{value} #{key}."
   end
 end
 
+puts "===> Making a list with Lemonade, Tomatoes, Onions and Apples."
+grocery_list = make_list("Lemonade Tomatoes Onions Apples")
+puts grocery_list
 
-LIST = Hash.new(0)
-make_list("Lemonade Tomatoes Onions Ice-Cream")
-remove_item("Lemonade")
-update_quantity("Ice-Cream",1)
-print_list
+puts " "
+puts "===> Adding 5 Oranges"
+add_item(grocery_list, "Oranges", 5)
+puts grocery_list
+
+puts " "
+puts "===> Removing Lemonade"
+remove_item(grocery_list, "Lemonade")
+puts grocery_list
+
+puts " "
+puts "===> Updating Tomatoes' quantity to 10"
+update_quantity(grocery_list, "Tomatoes", 10)
+puts grocery_list
+
+puts " "
+print_list(grocery_list)
 
 
 
