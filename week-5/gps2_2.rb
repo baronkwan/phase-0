@@ -27,7 +27,7 @@ def add_item(list, item, quantity=0)
 end
 
 # Method to remove an item from the list
-# input: Existing item you want to remove
+# input: The list, the existing item you want to remove
 # steps: iterate through the hash list, then delete it if found item that match
 # output: hash
 
@@ -37,7 +37,7 @@ end
 
   
 # Method to update the quantity of an item
-# input: Item you want to update and the new quantity for it
+# input: The list, The item you want to update and the new quantity for it
 # steps: Iterate through the hash list and update the value
 # output: hash
 
