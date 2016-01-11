@@ -34,7 +34,9 @@
 
 def separate_comma(integer)
 	return integer.to_s if integer < 1000
-	integer.to_s.split("").reverse.each_slice(3).collect(&:join).join(",").reverse
+	integer_reverse_split_array = integer.to_s.split("").reverse
+	slicing_every_3_digit_array = integer_reverse_split_array.each_slice(3).collect{|array| array.join}
+	slicing_every_3_digit_array.join(",").reverse
 end
 
 
@@ -43,7 +45,7 @@ end
 # What was your process for breaking the problem down? What different approaches did you consider?
 
 # My idea is to convert to input integer into string type then separate every 3 elements with a comma.
-# At first, I was trying to make a recusive method with both integer and modular division. But that's just too much work.
+# At first, I was trying to make a recusive method with both integer and modular division. But that will just complcate the question.
 
 
 # # Was your pseudocode effective in helping you build a successful initial solution?
