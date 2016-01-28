@@ -63,7 +63,7 @@ Databases are used for create, update and administer data / information.
 
 ### What is a one-to-many relationship?
 
-One-to-many relationship means one item has relation with many items. It is better to	explain by using an example: A student can take more than one class in a semester. That's a one-to-many relationship.
+One-to-many relationship means one item has relation with many items. It is better to	explain by using an example: In a "product sales" database, a customer may place many orders; while an order is placed by one particular customer.
 
 
 ### What is a primary key? What is a foreign key? How can you determine which is which?
