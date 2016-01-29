@@ -2,14 +2,14 @@
 
 ## Release 2 # One to one Schema:
 
-![one2one](../imgs/one2one.png "one2one")
+![one2one](imgs/one2one.png "one2one")
 
 In the above diagram, I take songs on itunes as an example to demostrate the one-to-one relationship. Information of Songs on itunes can be stored inside one spreadsheet if it is big enough. As people might not interested at knowing the lyrics, popularity and its genre before listening to the song. Those information seems to be useless to some people. So it would be a good idea to break the bulky songs table down into more than one sheet. And since people might be interested if the song is written by a talented artist or the high rating by public on the social media. Therefore, some important information will stay on the songs table while other less important details will be moved to the new table called Song Details.
 
 
 ## Release 4 # Many to many Schema:
 
-![many2many](../imgs/many2many.png "many2many")
+![many2many](imgs/many2many.png "many2many")
 
 
 ## Release 6 # Reflection:
